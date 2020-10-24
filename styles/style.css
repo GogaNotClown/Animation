@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    animation: animate 0.7s infinite;
+    animation-timing-function: linear;
+    position: absolute;
+	top: 165px;
+	right: 545px;
+	width: 30%;
+}
+
+@keyframes animate {
+    0% {
+        text-shadow: 4px 4px 0px purple;
+    }
+    25% {
+        text-shadow: -4px -4px 0px blue;
+    }
+    50% {
+        text-shadow: 4px 4px 0px purple;
+    }
+    75% {
+        text-shadow: -4px -4px 0px blue;
+    }
+    100% {
+        text-shadow: 4px 4px 0px purple;
+    }
+}
+
+img {
+    max-width: 250%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

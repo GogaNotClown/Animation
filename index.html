@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Animation</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="shortcut icon" href="images/logo.ico">
+    </head>
+    <body>
+
+        <h1>Hello</h1>
+
+        <img src="images/main.gif" alt="main">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+        <script src="js/jquery.snow.js"></script>
+
+        <script>
+            $(document).ready( function(){
+                $.fn.snow({ minSize: 35, maxSize: 65, newOn: 500, flakeColor: '#E0FFFF' });
+            });
+        </script>
+
+ 
+    </body>
+</html>
